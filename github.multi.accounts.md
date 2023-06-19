@@ -32,6 +32,15 @@ cat <<EOF >> ~/.gitconfig
 EOF
 ```
 
+>or, if you want to set this account as the default account, add the following configuration instead, before all accounts are configured:
+>
+>```bash
+>cat <<EOF >> ~/.gitconfig
+>[include"]
+>	path = ~/.gitconfig.dir/.gitconfig.myaccount
+>EOF
+>```
+
 ## add other accounts
 
 Add the configuration of other accounts as above

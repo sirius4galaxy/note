@@ -32,7 +32,7 @@ cat <<EOF >> ~/.gitconfig
 EOF
 ```
 
->or, if you want to set this account as the default account, add the following configuration instead, before all accounts are configured:
+>or, if you want to set this account as the default account, add the following configuration instead, before configuration of all accounts:
 >
 >```bash
 >cat <<EOF >> ~/.gitconfig

@@ -6,6 +6,10 @@
 - email: myaccount@163.com
 - private key path: ~/.ssh/myaccount_ed25519
 
+## preconditions
+
+- Ensure that there is no `github.com` configuration in `~/.ssh/config`
+
 ## add config file for account `myaccount`
 
 ```bash
@@ -27,6 +31,10 @@ cat <<EOF >> ~/.gitconfig
 	path = ~/.gitconfig.dir/.gitconfig.myaccount
 EOF
 ```
+
+## add other accounts
+
+Add the configuration of other accounts as above
 
 ## references
 
